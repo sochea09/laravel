@@ -1,0 +1,8 @@
+
+* create articles migration
+=> php artisan make:migration create_articles_table --create="articles"
+=> php artisan migrate
+
+* add more field to articles create_articles_table
+=> php artisan make:migration add_excerpt_to_articles_table --table="articles"
+=> php artisan migrate
